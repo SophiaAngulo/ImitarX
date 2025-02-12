@@ -18,6 +18,7 @@ body {
     letter-spacing: 1px;
     color: #ffffff;
     line-height: 40px;
+    padding: 20px;
 }
 
 /* 
@@ -35,18 +36,19 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0px;
+    padding: 50px;
 }
 
 .contenido {
     display: block; /* Asegura que sea un contenedor de bloque */
     margin-left: 0; /* Alinea a la izquierda */
+    
 }
 /* 
    - Arreglar posición del logo.
 */
 .logox {
-    max-width: 300px;
+    max-width: 600px;
     height: auto;
     padding: 10px;
 }
