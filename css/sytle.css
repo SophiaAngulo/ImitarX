@@ -1,0 +1,222 @@
+
+/* 
+========================================
+    ESTILO GENERAL DEL CUERPO
+========================================
+*/
+
+/* 
+   - Establece un fondo negro para el cuerpo.
+   - Define el color del texto en blanco.
+   - Establece fuente y tipo.
+   - Configura el espaciado entre líneas para mejorar la lectura del contenido.
+*/
+body {
+    background-color: #000000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+/* 
+========================================
+    ENCABEZADO (HEADER)
+========================================
+*/
+
+/* 
+   - Agrega un fondo azul al encabezado.
+   - El texto se muestra en color blanco para generar contraste.
+   - Se aplica un relleno vertical de 20px y se centra el texto. 
+*/
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+}
+
+.contenido {
+    display: block; /* Asegura que sea un contenedor de bloque */
+    margin-left: 0; /* Alinea a la izquierda */
+}
+/* 
+   - Arreglar posición del logo.
+*/
+.logox {
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+/* 
+   - Estilos de botones
+*/
+
+.boton-google {
+    display: flex;            /* Activar Flexbox */
+    justify-content: center;  /* Centrar la imagen horizontalmente */
+    align-items: center;      /* Centrar la imagen verticalmente */
+    width: 320px;             /* Ancho del botón */
+    height: 50px;             /* Alto del botón */
+    padding: 10px 20px;
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+
+}
+
+.google {
+    width: 20px; /* Tamaño de los logos */
+    height: 20px;
+    margin-right: 5px;
+}
+
+.textoG {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;    /* Centra el texto horizontalmente */
+    line-height: 30px;     /* Centra el texto verticalmente */
+}
+
+.botones { 
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-apple {
+    display: flex;            /* Activar Flexbox */
+    justify-content: center;  /* Centrar la imagen horizontalmente */
+    align-items: center;      /* Centrar la imagen verticalmente */
+    width: 320px;             /* Ancho del botón */
+    height: 50px;             /* Alto del botón */
+    padding: 10px 20px;
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.logo-apple {
+    width: 20px; /* Tamaño de los logos */
+    height: 20px;
+    margin-right: 5px; /* Espacio entre los logos y el texto */
+}
+
+.textoA {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;    /* Centra el texto horizontalmente */
+    line-height: 30px;     /* Centra el texto verticalmente */
+}
+
+/* Caracteristicas del separador */
+
+.separador{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .separador .linea{
+    border-top: 1px solid hsl(0, 0%, 31%);
+    width: 45% ;
+    margin: auto;
+ } 
+ 
+ .separador .linea{
+    border-top: 1px solid hsl(0, 0%, 31%);
+    width: 45% ;
+    margin: auto;
+
+ }
+
+ .letra-o {
+    font-size: 12px;
+    color: #ffffff;
+ }
+
+/* Clases para cambiar el color de los botones */
+.boton-azul {
+    display: flex;            /* Activar Flexbox */
+    justify-content: center;  /* Centrar la imagen horizontalmente */
+    align-items: center;      /* Centrar la imagen verticalmente */
+    width: 320px;             /* Ancho del botón */
+    height: 50px;             /* Alto del botón */
+    background-color: #2574ce; 
+    padding: 10px 20px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;  
+}
+
+.textocrear {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;    /* Centra el texto horizontalmente */
+    line-height: 30px;     /* Centra el texto verticalmente */
+}
+
+.politicas {
+    color: rgb(95, 95, 95); /* Color azul */
+    font-weight: normal;
+    line-height: 15px;
+    font-size: 12px;
+}
+.azul {
+    color: #2574ce; /* Color azul */
+  }
+
+.pregunta{
+    text-align: left;
+}
+
+.boton-iniciar {
+    display: flex;            /* Activar Flexbox */
+    justify-content: center;  /* Centrar la imagen horizontalmente */
+    align-items: center;      /* Centrar la imagen verticalmente */
+    width: 320px;             /* Ancho del botón */
+    height: 50px;             /* Alto del botón */
+    background-color: #000000; 
+    padding: 10px 20px;
+    border-radius: 60px;
+    border: 2px solid rgb(48, 48, 48);
+    cursor: pointer;
+    
+}
+.textoiniciar {
+    color: #2574ce;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;    /* Centra el texto horizontalmente */
+    line-height: 30px;     /* Centra el texto verticalmente */
+}
+
+/* Footer*/ 
+
+footer {
+    display: flex;            /* Activar Flexbox */
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.textos-finales {
+    color: rgb(95, 95, 95); /* Color azul */
+    font-weight: normal;
+    line-height: 15px;
+    font-size: 12px;
+}
