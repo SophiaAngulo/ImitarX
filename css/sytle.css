@@ -61,7 +61,7 @@ body {
     display: flex;            /* Activar Flexbox */
     justify-content: center;  /* Centrar la imagen horizontalmente */
     align-items: center;      /* Centrar la imagen verticalmente */
-    width: 320px;             /* Ancho del botón */
+    width: 350px;             /* Ancho del botón */
     height: 50px;             /* Alto del botón */
     padding: 10px 20px;
     background-color: #ffffff; 
